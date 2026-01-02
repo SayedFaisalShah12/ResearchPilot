@@ -1,0 +1,37 @@
+# ResearchPilot - Autonomous Research Assistant
+# All dependencies are free and open-source
+
+# Core LLM and Agent Framework
+langchain==0.1.20
+langchain-community==0.0.38
+langgraph==0.0.40
+langchain-core==0.1.52
+
+# Local LLM Integration (Ollama)
+ollama==0.1.7
+
+# Vector Database and Embeddings
+faiss-cpu>=1.8.0
+sentence-transformers==2.3.1
+
+# Web Search
+duckduckgo-search>=5.2.0
+
+# PDF Processing
+PyMuPDF>=1.24.0
+pdfplumber==0.11.0
+
+# Web Framework
+streamlit==1.32.0
+
+# Utilities
+python-dotenv==1.0.1
+pydantic==2.6.4
+numpy==1.26.4
+tqdm==4.66.2
+
+# Additional utilities
+requests==2.31.0
+beautifulsoup4==4.12.3
+lxml==5.1.0
+
