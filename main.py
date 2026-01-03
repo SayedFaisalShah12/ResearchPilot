@@ -66,7 +66,7 @@ def format_sources(sources: list) -> str:
 def main():
     """Main application"""
     st.title("🚀 ResearchPilot")
-    st.markdown("**Autonomous Research Assistant powered by Local LLMs and Agentic RAG**")
+    st.markdown("**Autonomous Research Assistant:**")
     
     # Sidebar
     with st.sidebar:
